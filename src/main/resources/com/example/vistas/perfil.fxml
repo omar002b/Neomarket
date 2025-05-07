@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:controller="com.example.controllers.PerfilController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="1017.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="670.0" prefWidth="53.0" style="-fx-background-color: black;">
+         <children>
+            <Button layoutX="12.0" layoutY="199.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="0.0" style="-fx-background-color: black;">
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/i_home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="11.0" layoutY="579.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="0.0" style="-fx-background-color: black;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/i_ajustes.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="11.0" layoutY="616.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="0.0" style="-fx-background-color: black;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/i_logout.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="12.0" layoutY="273.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="0.0" style="-fx-background-color: black;">
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/i_credit.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="12.0" layoutY="348.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="0.0" style="-fx-background-color: black;">
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/i_pedidos.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children></Pane>
+      <Pane layoutX="113.0" layoutY="65.0" prefHeight="152.0" prefWidth="162.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fx:id="fotoPerfil" fitHeight="152.0" fitWidth="154.0" layoutX="9.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
+         </children></Pane>
+      <Text fx:id="textNombre" layoutX="309.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text fx:id="textApellido" layoutX="418.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellido">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Circle fill="#f4ff1f" layoutX="320.0" layoutY="119.0" radius="10.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Line endX="903.0" layoutX="50.0" layoutY="249.0" startX="84.0" />
+      <Text layoutX="310.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registrado desde" wrappingWidth="80.65283203125">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Circle fill="#f4ff1f" layoutX="347.0" layoutY="119.0" radius="10.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#f4ff1f" layoutX="373.0" layoutY="119.0" radius="10.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#f4ff1f" layoutX="397.0" layoutY="119.0" radius="10.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#f4ff1f" layoutX="421.0" layoutY="119.0" radius="10.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Button layoutX="544.0" layoutY="265.0" mnemonicParsing="false" style="-fx-background-color: white;" styleClass="btnResenas">
+         <graphic>
+            <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/i_comentarios.png" />
+               </image></ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnProductos" layoutX="326.0" layoutY="265.0" mnemonicParsing="false" style="-fx-background-color: white;">
+         <graphic>
+            <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/i_list.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnVerificaciones" layoutX="774.0" layoutY="262.0" mnemonicParsing="false" style="-fx-background-color: white;">
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/i_verificado.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Line endX="111.0" layoutX="245.0" layoutY="294.0" startX="84.0" />
+      <Line endX="111.0" layoutX="463.0" layoutY="293.0" startX="84.0" />
+      <Line endX="111.0" layoutX="696.0" layoutY="293.0" startX="84.0" />
+      <Button fx:id="btnEditar" layoutX="911.0" layoutY="62.0" mnemonicParsing="false" style="-fx-background-color: white;">
+         <graphic>
+            <ImageView fitHeight="21.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/i_editar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fx:id="textDesc" layoutX="310.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descripción." wrappingWidth="126.65283203125">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <ScrollPane layoutX="163.0" layoutY="307.0" prefHeight="349.0" prefWidth="793.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="544.0" prefWidth="778.0" style="-fx-background-color: white;" />
+        </content>
+      </ScrollPane>
+      <Text fx:id="textoFecha" layoutX="391.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="126.65283203125">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
